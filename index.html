@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mp3Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Aqualung_music_player_drop_icon.svg/1024px-Aqualung_music_player_drop_icon.svg.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="music_content">
+            <h2 id="title">Bewafai song</h2>
+            <h3 id="artist">Neelkamal Singh</h3>
+            <div class="music_image">
+                <img src="https://scontent.fbho3-1.fna.fbcdn.net/v/t39.30808-6/273464873_519452632855377_8709825231481178504_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=K_bdFR2fWccAX8yNSHG&_nc_ht=scontent.fbho3-1.fna&oh=00_AfCb19cCXYLZc7zwKgW2BVTD483Vc-Ggts-ERXF333GWpA&oe=656665B8" alt="myImage">
+            </div>
+            <div id="audioR">
+                <input type="range" id="audioRange" value="0">
+            </div>
+            <audio src="audio2.mp3"></audio>
+            <div class="music_controls">
+                <i class="fa-solid fa-backward" title="Previous" id="prev"></i>
+                <i class="fa-solid fa-play" title="Play" id="play"></i>
+                <i class="fa-solid fa-forward" title="Next" id="next"></i>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
